@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="style.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>1I時間割表示サイト</title>
+</head>
+<body>
+    <h1 class="mokuji">1I時間割表示サイト</h1>
+    <script type="text/javascript">
+        function Settoday(){
+          var today = new Date() ;
+          var weekday = [ "Sun", "Mon", "Tue", "Wed", "Thu", "Fri", "Sat" ] ;  
+          document.getElementById(weekday[today.getDay()]).style.display="block";
+        }
+        </script>
+          
+          
+        <body onload="Settoday();">
+          
+        <div id="Sun" style="display:none;">
+          <p>情報工学概論・地理・基礎数学α・ディジタル回路</p>
+        </div>
+        <div id="Mon" style="display:none;">
+        <p>英語W・化学・基礎数学β</p>
+        </div>
+        <div id="Tue" style="display:none;">
+        <p>保健体育・情報リテラシー・現代国語</p>
+        </div>
+        <div id="Wed" style="display:none;">
+        <p>美術or音楽・英文法・古典</p>
+        </div>
+        <div id="Thu" style="display:none;">
+        <p>物理・英語R・基礎数学α</p>
+        </div>
+        <div id="Fri" style="display:none;">
+            <p>明々後日は情報工学概論・地理・基礎数学α・ディジタル回路</p>
+        </div>
+        <div id="Sat" style="display:none;">
+            <p>明後日は情報工学概論・地理・基礎数学α・ディジタル回路</p>
+        </div>
+        </body></script>
+</body>
+</html>
