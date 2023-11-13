@@ -178,7 +178,7 @@ a{
     width: 100%;
     max-width: 350px; /* ボタン幅 */
     position: relative;
-    color: #15ff21; /* 文字色 */
+    color: #52bf57; /* 文字色 */
     padding: 1em 2em;
     font-weight: bold;
     text-decoration: none;
@@ -194,7 +194,7 @@ a{
     content: '';
     -webkit-transition: all .3s;
     transition: all .3s;
-    background: #44ff15; /* 線色 */
+    background: #77d260; /* 線色 */
   }
   
   .border_btn06::before {
