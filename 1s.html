@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="style/style4.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>1S時間割表示サイト</title>
+</head>
+<body>
+    <div class="area" >
+        <ul class="circles">
+                <li></li>
+                <li></li>
+                <li></li>
+                <li></li>
+                <li></li>
+                <li></li>
+                <li></li>
+                <li></li>
+                <li></li>
+                <li></li>
+    <div class="context">
+    <h1 class="mokuji">1S時間割表示サイト</h1>
+    <script type="text/javascript">
+        function Settoday(){
+          var today = new Date() ;
+          var weekday = [ "Sun", "Mon", "Tue", "Wed", "Thu", "Fri", "Sat" ] ;  
+          document.getElementById(weekday[today.getDay()]).style.display="block";
+        }
+        </script>
+          
+          
+        <body onload="Settoday();">
+          
+        <div id="Sun" style="display:none;">
+          <p>基礎製図法・基礎数学β・生物</p>
+        </div>
+        <div id="Mon" style="display:none;">
+        <p>情報リテラシー・英語W・現代国語・基礎数学α</p>
+        </div>
+        <div id="Tue" style="display:none;">
+        <p>英語R・保健体育・電子制御工学実験</p>
+        </div>
+        <div id="Wed" style="display:none;">
+        <p>地理・美術/音楽・英文法</p>
+        </div>
+        <div id="Thu" style="display:none;">
+        <p>基礎数学α・化学・物理</p>
+        </div>
+        <div id="Fri" style="display:none;">
+            <p>明々後日は基礎製図法・基礎数学β・生物</p>
+        </div>
+        <div id="Sat" style="display:none;">
+            <p>明後日は基礎製図法・基礎数学β・生物</p>
+        </div>
+        </body></script>
+        </div>
+    </ul>
+</div >
+</body>
+</html>

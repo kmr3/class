@@ -1,0 +1,214 @@
+h1.mokuji{
+    text-align: center;
+    color: #000000;
+}
+body{
+    background-color: #cdcdcd;
+}
+p{
+    text-align: center;
+    color: #000000;
+}
+a{
+    text-align: center;
+}
+.border_btn02 {
+    display: inline-block;
+    width: 100%;
+    max-width: 350px; /* ボタン幅 */
+    position: relative;
+    color: #4574b1; /* 文字色 */
+    padding: 1em 2em;
+    font-weight: bold;
+    text-decoration: none;
+    text-align: center;
+    transition: 0.3s;
+  }
+  
+  .border_btn02::before,
+  .border_btn02::after {
+    position: absolute;
+    width: 100%;
+    height: 2px; /* 線幅 */
+    content: '';
+    -webkit-transition: all .3s;
+    transition: all .3s;
+    background: #28d0ff; /* 線色 */
+  }
+  
+  .border_btn02::before {
+    top: 0;
+    left: 0;
+  }
+  
+  .border_btn02::after {
+    right: 0;
+    bottom: 0;
+  }
+  
+  /* マウスオーバーした際のデザイン */
+  .border_btn02:hover:before,
+  .border_btn02:hover:after {
+    width: 0;
+  }
+
+  
+  .border_btn03 {
+    display: inline-block;
+    width: 100%;
+    max-width: 350px; /* ボタン幅 */
+    position: relative;
+    color: #a42cff; /* 文字色 */
+    padding: 1em 2em;
+    font-weight: bold;
+    text-decoration: none;
+    text-align: center;
+    transition: 0.3s;
+  }
+  
+  .border_btn03::before,
+  .border_btn03::after {
+    position: absolute;
+    width: 100%;
+    height: 2px; /* 線幅 */
+    content: '';
+    -webkit-transition: all .3s;
+    transition: all .3s;
+    background: #bd4aff; /* 線色 */
+  }
+  
+  .border_btn03::before {
+    top: 0;
+    left: 0;
+  }
+  
+  .border_btn03::after {
+    right: 0;
+    bottom: 0;
+  }
+  
+  /* マウスオーバーした際のデザイン */
+  .border_btn03:hover:before,
+  .border_btn03:hover:after {
+    width: 0;
+  }
+
+  .border_btn04 {
+    display: inline-block;
+    width: 100%;
+    max-width: 350px; /* ボタン幅 */
+    position: relative;
+    color: #fdfd65; /* 文字色 */
+    padding: 1em 2em;
+    font-weight: bold;
+    text-decoration: none;
+    text-align: center;
+    transition: 0.3s;
+  }
+  
+  .border_btn04::before,
+  .border_btn04::after {
+    position: absolute;
+    width: 100%;
+    height: 2px; /* 線幅 */
+    content: '';
+    -webkit-transition: all .3s;
+    transition: all .3s;
+    background: #dad53f; /* 線色 */
+  }
+  
+  .border_btn04::before {
+    top: 0;
+    left: 0;
+  }
+  
+  .border_btn04::after {
+    right: 0;
+    bottom: 0;
+  }
+  
+  /* マウスオーバーした際のデザイン */
+  .border_btn04:hover:before,
+  .border_btn04:hover:after {
+    width: 0;
+  }
+
+  .border_btn05 {
+    display: inline-block;
+    width: 100%;
+    max-width: 350px; /* ボタン幅 */
+    position: relative;
+    color: #fb2424; /* 文字色 */
+    padding: 1em 2em;
+    font-weight: bold;
+    text-decoration: none;
+    text-align: center;
+    transition: 0.3s;
+  }
+  
+  .border_btn05::before,
+  .border_btn05::after {
+    position: absolute;
+    width: 100%;
+    height: 2px; /* 線幅 */
+    content: '';
+    -webkit-transition: all .3s;
+    transition: all .3s;
+    background: #c44036; /* 線色 */
+  }
+  
+  .border_btn05::before {
+    top: 0;
+    left: 0;
+  }
+  
+  .border_btn05::after {
+    right: 0;
+    bottom: 0;
+  }
+  
+  /* マウスオーバーした際のデザイン */
+  .border_btn05:hover:before,
+  .border_btn05:hover:after {
+    width: 0;
+  }
+
+  .border_btn06 {
+    display: inline-block;
+    width: 100%;
+    max-width: 350px; /* ボタン幅 */
+    position: relative;
+    color: #15ff21; /* 文字色 */
+    padding: 1em 2em;
+    font-weight: bold;
+    text-decoration: none;
+    text-align: center;
+    transition: 0.3s;
+  }
+  
+  .border_btn06::before,
+  .border_btn06::after {
+    position: absolute;
+    width: 100%;
+    height: 2px; /* 線幅 */
+    content: '';
+    -webkit-transition: all .3s;
+    transition: all .3s;
+    background: #44ff15; /* 線色 */
+  }
+  
+  .border_btn06::before {
+    top: 0;
+    left: 0;
+  }
+  
+  .border_btn06::after {
+    right: 0;
+    bottom: 0;
+  }
+  
+  /* マウスオーバーした際のデザイン */
+  .border_btn06:hover:before,
+  .border_btn06:hover:after {
+    width: 0;
+  }
