@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="ja">
+    <head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="style/style2.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>2C時間割表示サイト</title>
+</head>
+    <body>
+    <div class="area" >
+        <ul class="circles">
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+            <div class="context">
+                <h1 class="mokuji">2C時間割表示<br>サイト</h1>
+                <script type="text/javascript">
+        function Settoday(){
+            var today = new Date() ;
+            var weekday = [ "Sun", "Mon", "Tue", "Wed", "Thu", "Fri", "Sat" ] ;  
+            document.getElementById(weekday[today.getDay()]).style.display="block";
+        }
+                </script>
+
+
+                <body onload="Settoday();">
+
+                    <div id="Sun" style="display:none;">
+                        <p>物理・化学・物質化学工学実験<br>休日まであと5日</p>
+                    </div>
+                    <div id="Mon" style="display:none;">
+                        <p><br>現国・無機化学・英語・線形代数<br></br>休日まであと4日</p>
+                    </div>
+                    <div id="Tue" style="display:none;">
+                        <p>一般化学演習・基礎数学β・化学<br>休日まであと3日</p>
+                    </div>
+                    <div id="Wed" style="display:none;">
+                        <p>英文法・生物化学・物質化学工学実験<br>休日まであと2日</p>
+                    </div>
+                    <div id="Thu" style="display:none;">
+                        <p>物理・微分積分・保健体育<br>休日まであと1日</p>
+                    </div>
+                    <div id="Fri" style="display:none;">
+                        <p>明々後日は歴史・微分積分・有機化学<br>明日は休日です</p>
+                        <div id="Sat" style="display:none;">
+                            <p>明後日は歴史・微分積分・有機化学<br>明日は休日です</p>
+                        </div>
+                    </body></script>
+            </div>
+        </ul>
+    </div >
+</body>
+</html>

@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="ja">
+    <head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="style/style.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>2I時間割表示サイト</title>
+</head>
+    <body>
+    <div class="area" >
+        <ul class="circles">
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+            <div class="context">
+                <h1 class="mokuji">2I時間割表示<br>サイト</h1>
+                <script type="text/javascript">
+        function Settoday(){
+            var today = new Date() ;
+            var weekday = [ "Sun", "Mon", "Tue", "Wed", "Thu", "Fri", "Sat" ] ;  
+            document.getElementById(weekday[today.getDay()]).style.display="block";
+        }
+                </script>
+
+
+                <body onload="Settoday();">
+
+                    <div id="Sun" style="display:none;">
+                        <p>情報工学概論・地理・基礎数学α・ディジタル回路<br>休日まであと5日</p>
+                    </div>
+                    <div id="Mon" style="display:none;">
+                        <p>英語W・化学・基礎数学β<br>休日まであと4日</p>
+                    </div>
+                    <div id="Tue" style="display:none;">
+                        <p>保健体育・情報リテラシー・現代国語<br>休日まであと3日</p>
+                    </div>
+                    <div id="Wed" style="display:none;">
+                        <p>美術or音楽・英文法・古典<br>休日まであと2日</p>
+                    </div>
+                    <div id="Thu" style="display:none;">
+                        <p>物理・英語R・基礎数学α<br>休日まであと1日</p>
+                    </div>
+                    <div id="Fri" style="display:none;">
+                        <p>明々後日は情報工学概論・地理・基礎数学α・ディジタル回路<br>明日は休日です</p>
+                    </div>
+                    <div id="Sat" style="display:none;">
+                        <p>明後日は情報工学概論・地理・基礎数学α・ディジタル回路<br>明日は休日です</p>
+                    </div>
+                </body></script>
+            </div>
+        </ul>
+    </div >
+</body>
+</html>
